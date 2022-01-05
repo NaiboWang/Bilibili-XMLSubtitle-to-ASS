@@ -6,9 +6,10 @@
 
 如果你是程序小白，那么请直接点击下方链接下载此程序（大概有50多M）。
 
--   下载地址1【码云（在中国境内下载速度会比较快）】：
+-   下载地址1【码云（在中国境内下载速度会比较快）】：<https://gitee.com/naibowang/Bilibili-XMLSubtitle-to-ASS/raw/master/dist/bilibiliXML2ASS.exe>
 
--   下载地址2【Github】：
+-   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/bilibiliXML2ASS.exe>
+
 
 下载完成后，在Win 10/Win 11系统双击打开即可，如果有杀毒软件（如Windows
 Defender）警告，点击“仍要运行”即可，本工具保证安全无毒。
@@ -298,6 +299,10 @@ B站的弹幕对应的视频分为三类：允许下载的视频，只允许在�
 
     此链接即上面b站官方的弹幕API，浏览器打开此链接，Ctrl+S保存成XML文件，并和视频文件保持同名即可。
 
+    批量获取CID可能会比较麻烦，会写爬虫的同学可以写爬虫一个一个爬，不会写的同学也推荐我的另一个可视化设计爬虫的工具，也可以实现爬虫的功能：
+
+    <https://github.com/NaiboWang/ServiceWrapper>
+
 在获得弹幕文件后，我们需要将弹幕文件和视频文件设置为相同的名称，比如在文件夹A下有一个 **“亮剑第一集.mp4”** 的视频，则需要**将该集的XML字幕同样放在文件夹A下**，然后将XML文件命名为 **“亮剑第一集.xml”** ，最后使用本程序选中A文件夹，点击执行按钮即可。程序会根据视频文件去找同名的xml文件，然后转换成对应的ass文件，转换完成后，打开视频文件即可显示弹幕。
 
 本工具支持的视频格式有：MP4, MKV, FLV和RMVB。
@@ -316,9 +321,9 @@ B站的弹幕对应的视频分为三类：允许下载的视频，只允许在�
 
 如果想要批量根据上面得到的url地址下载弹幕，这里我也开发了个小程序：
 
--   下载地址1【码云（在中国境内下载速度会比较快）】：
+-   下载地址1【码云（在中国境内下载速度会比较快）】：<https://gitee.com/naibowang/Bilibili-XMLSubtitle-to-ASS/raw/master/dist/Crawler.exe>
 
--   下载地址2【Github】：
+-   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/Crawler.exe>
 
 自然，也可以直接下载此仓库的的Crawler.py通过Python运行，来批量下载弹幕.
 
