@@ -6,12 +6,12 @@
 
 如果你是程序小白，那么请直接点击下方链接下载此程序（大概有50多M）。
 
--   下载地址1【码云（在中国境内下载速度会比较快）】：<https://gitee.com/naibowang/Bilibili-XMLSubtitle-to-ASS/raw/master/dist/bilibiliXML2ASS.exe>
+-   下载地址1【码云（在中国境内下载速度会比较快）】：<https://gitee.com/naibowang/Bilibili-XMLSubtitle-to-ASS/raw/master/dist/bilibiliXML2ASS.zip>
 
--   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/bilibiliXML2ASS.exe>
+-   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/bilibiliXML2ASS.zip>
 
 
-下载完成后，在Win 10/Win 11系统双击打开即可，如果有杀毒软件（如Windows
+下载完成后解压得到bilibiliXML2ASS.exe，在Win 10/Win 11系统双击打开即可，如果有杀毒软件（如Windows
 Defender）警告，点击“仍要运行”即可，本工具保证安全无毒。
 
 ### Python运行
@@ -321,9 +321,9 @@ B站的弹幕对应的视频分为三类：允许下载的视频，只允许在�
 
 如果想要批量根据上面得到的url地址下载弹幕，这里我也开发了个小程序：
 
--   下载地址1【码云（在中国境内下载速度会比较快）】：<https://gitee.com/naibowang/Bilibili-XMLSubtitle-to-ASS/raw/master/dist/Crawler.exe>
+-   下载地址1【码云（在中国境内下载速度会比较快）】：<https://gitee.com/naibowang/Bilibili-XMLSubtitle-to-ASS/raw/master/dist/Crawler.zip>
 
--   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/Crawler.exe>
+-   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/Crawler.zip>
 
 自然，也可以直接下载此仓库的的Crawler.py通过Python运行，来批量下载弹幕.
 
