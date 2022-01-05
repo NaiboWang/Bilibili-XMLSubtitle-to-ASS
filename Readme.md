@@ -249,8 +249,7 @@ Python运行方式：
 
 1.  Youtube，很多国产剧Youtube上都可以直接观看，只不过需要“特殊渠道”下载。
 
-2.  人人影视分享站：<https://yyets.dmesg.app/home>
-    很多好剧都有阿里云盘的链接，包括美剧，国产剧，英剧等等。
+2.  人人影视分享站：<https://yyets.dmesg.app/home>，很多好剧都有阿里云盘的链接，包括美剧，国产剧，英剧等等。
 
 3.  可以从其他视频网站下载下来视频文件，然后转换成MP4，比如从爱奇艺上下载下视频后，转换成MP4再配合B站弹幕观看，具体方式请自行了解。
 
@@ -263,9 +262,14 @@ B站的弹幕对应的视频分为三类：允许下载的视频，只允许在�
     这里主要用到两个API：
 
     *  获取剧集信息的API，适用于视频资源是剧集的情况:
+
         <http://api.bilibili.com/pgc/view/web/season?ep_id=EPID>。
 
-        比如，我想要获得梦比优斯奥特曼的弹幕文件，之前我已经在youtube上将视频全部下载下来了，这时候需要配合B站弹幕观看，则首先，我要知道剧集的ep号，该剧的网址是：<https://www.bilibili.com/bangumi/play/ep397744>，这个397744就是剧集的ep号，然后调用上面bilibili官方的api，来获得弹幕的编号，即CID号：
+        比如，我想要获得梦比优斯奥特曼的弹幕文件，之前我已经在youtube上将视频全部下载下来了，这时候需要配合B站弹幕观看，则首先，我要知道剧集的ep号，该剧的网址是：
+        
+        <https://www.bilibili.com/bangumi/play/ep397744>
+        
+        这个397744就是剧集的ep号，然后调用上面bilibili官方的api，来获得弹幕的编号，即CID号：
 
         <http://api.bilibili.com/pgc/view/web/season?ep_id=397744>
 
@@ -293,7 +297,15 @@ B站的弹幕对应的视频分为三类：允许下载的视频，只允许在�
 3.  对于已下架视频，这个比较麻烦，因为此时B站官方的API已经不能用了，但还是有办法找到还没有消失的弹幕文件。
 
     这里前提是如果你知道视频的AV或者BV号（最好是收藏夹里有，这样可以参考此链接：<https://www.bilibili.com/read/cv3726629>
-    获得AV或者BV号，不然只能撞运气去百度搜一搜视频名称看有没有曾经的链接还在），哪怕已经下架，也可以使用ibilibili.com检索对应的弹幕地址，比如这里有一个视频《神探狄仁杰》，av号是51737062，网址是：<https://www.bilibili.com/video/av51737062>，打开显示已下架，这时候我们需要从其他途径获得该剧的视频文件，对于弹幕文件，我们将剧集网址的bilibili改成ibilibili，即访问：<https://www.ibilibili.com/video/av51737062>，打开后在下方可以找到对应的弹幕文件地址：
+    获得AV或者BV号，不然只能撞运气去百度搜一搜视频名称看有没有曾经的链接还在），哪怕已经下架，也可以使用ibilibili.com检索对应的弹幕地址，比如这里有一个视频《神探狄仁杰》，av号是51737062，网址是：
+    
+    <https://www.bilibili.com/video/av51737062>
+    
+    打开显示已下架，这时候我们需要从其他途径获得该剧的视频文件，对于弹幕文件，我们将剧集网址的bilibili改成ibilibili，即访问：
+    
+    <https://www.ibilibili.com/video/av51737062>
+    
+    打开后在下方可以找到对应的弹幕文件地址：
 
     ![JSON](media/f4473cb746b0a7b1122677b969416bac.png)
 
