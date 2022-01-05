@@ -1,6 +1,6 @@
 # 可视化Bilibili本地视频XML弹幕转换ASS字幕转换器
 
-一个将Bilibili弹幕/B站弹幕转换为本地播放器可识别的ASS格式字幕的工具。
+一个可视化，打开即用的将B站弹幕转换为本地播放器可识别的ASS格式字幕的工具。
 
 ## 下载/运行方式
 
@@ -13,8 +13,7 @@
 -   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/bilibiliXML2ASS.zip>
 
 
-下载完成后解压得到bilibiliXML2ASS.exe，在Win 10/Win 11系统双击打开即可，如果有杀毒软件（如Windows
-Defender）警告，点击“仍要运行”即可，本工具保证安全无毒。
+下载完成后解压得到bilibiliXML2ASS.exe，在Win 10/Win 11系统双击打开即可，第一次打开可能需要等待15-20秒。
 
 ### Python运行
 
