@@ -6,7 +6,7 @@
 
 ### 直接运行
 
-如果你是程序小白，那么请直接点击下方链接下载此程序（大概有50多M）。
+如果你是程序小白，那么请直接点击下方链接下载此程序（56.1MB）。
 
 -   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/bilibiliXML2ASS.zip>
 

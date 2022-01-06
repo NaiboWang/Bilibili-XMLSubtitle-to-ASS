@@ -1392,7 +1392,7 @@ def main():
 
     win = tkinter.Tk()
     win.title("Bilibili XML弹幕转换ASS文件转换器")
-    win.geometry("400x500")
+    win.geometry("400x530")
     label = tkinter.Label(win, text='')
     label.pack(side=tkinter.TOP)
     label2 = tkinter.Label(win, text='请选择文件夹')
