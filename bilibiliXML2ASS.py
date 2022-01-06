@@ -1132,8 +1132,7 @@ def convertDir(input_files,
                             font_face = "Microsoft Yahei"
                             fontSize *= 1.2
                         elif face == "楷体":
-                            font_face = "STKaiti"
-                            fontSize *= 1.2
+                            font_face = "Kaiti"
                         elif face == "宋体":
                             font_face = "SimSun"
                         else:
