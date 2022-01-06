@@ -8,7 +8,7 @@
 
 如果你是程序小白，那么请直接点击下方链接下载此程序（大概有50多M）。
 
--   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/raw/master/dist/bilibiliXML2ASS.zip>
+-   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/bilibiliXML2ASS.zip>
 
 -   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/bilibiliXML2ASS.zip>
 
