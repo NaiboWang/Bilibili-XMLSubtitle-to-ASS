@@ -2,6 +2,10 @@
 
 一个可视化，打开即用的将B站弹幕转换为本地播放器可识别的ASS格式字幕的工具。
 
+如果使用Github导致此阅读文档中的图片由于网络问题无法正常加载，请移步中国境内的仓库来查看和阅读使用说明：
+
+<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/tree/master>
+
 ## 下载/运行方式
 
 ### 直接运行
