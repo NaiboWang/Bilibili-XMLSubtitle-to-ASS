@@ -368,7 +368,6 @@ B站的弹幕对应的视频分为三类：允许下载的视频，只允许在�
 
 最后，放一张我从B站下载保存下来的带弹幕的视频文件的示例，一些小品：
 
-![A picture containing text Description automatically
-generated](media/f22071f3c7ae69602fad5299caadcb1a.png)
+![小品列表](media/f22071f3c7ae69602fad5299caadcb1a.png)
 
 希望大家使用愉快，欢迎与我交流！
