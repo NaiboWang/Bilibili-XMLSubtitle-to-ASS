@@ -1018,7 +1018,7 @@ def time_now():
 
 
 updateSubtitle, renameFolder, convertSubtitle = True, True, True
-comvalue, comvalue2, comvalue3 = None, None, None
+comvalue, comvalue2, comvalue3,comvalue4 = None, None, None, None
 
 
 def convertDir(input_files,
@@ -1138,7 +1138,8 @@ def convertDir(input_files,
                             font_face = "SimSun"
                         else:
                             font_face = "SimHei"
-
+                        duration_marquee = float(comvalue4.get())
+                        duration_still = float(comvalue4.get())
                         try:
                             Danmaku2ASS(os.path.join(root,
                                                      xmlFile), input_format,
@@ -1309,7 +1310,7 @@ def click():
 
 
 def main():
-    global label2, updateSubtitle, renameFolder, convertSubtitle, C1, comvalue, comvalue2, comvalue3
+    global label2, updateSubtitle, renameFolder, convertSubtitle, C1, comvalue, comvalue2, comvalue3, comvalue4
     logging.basicConfig(format='%(levelname)s: %(message)s')
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -1391,7 +1392,7 @@ def main():
 
     win = tkinter.Tk()
     win.title("Bilibili XML弹幕转换ASS文件转换器")
-    win.geometry("400x430")
+    win.geometry("400x500")
     label = tkinter.Label(win, text='')
     label.pack(side=tkinter.TOP)
     label2 = tkinter.Label(win, text='请选择文件夹')
@@ -1453,6 +1454,17 @@ def main():
                              "65%", "60%", "55%", "50%", "45%", "40%")
     comboxlist2.set("78%")
     comboxlist2.pack()
+    label = tkinter.Label(win, text='单条弹幕持续时间（秒）')
+    label.pack(side=tkinter.TOP)
+    comvalue4 = tkinter.StringVar()
+    comboxlist4 = ttk.Combobox(win,
+                               textvariable=comvalue4,
+                               width=7,
+                               state="readonly")  #初始化
+    comboxlist4["values"] = ("4","5", "6", "7", "8", "9", "10", "11",
+                             "12", "13", "14", "15", "16")
+    comboxlist4.set("10")
+    comboxlist4.pack()
     
     label = tkinter.Label(win, text='')
     label.pack(side=tkinter.TOP)
