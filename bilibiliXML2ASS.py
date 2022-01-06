@@ -30,7 +30,7 @@ from datetime import datetime, timezone, timedelta
 import time
 
 import requests
-import cv2
+# import cv2
 import tkinter
 import tkinter.messagebox  #这个是消息框，对话框的关键
 from tkinter.filedialog import (askopenfilename, askopenfilenames,
@@ -1049,17 +1049,17 @@ def convertDir(input_files,
                     if (file.find(".mp4") > 0 or file.find(".flv") > 0
                             or file.find(".rmvb") > 0 or
                             file.find(".mkv") > 0) and file.find("Zone") < 0:
-                        cap = cv2.VideoCapture(os.path.join(root, file))
-                        # 帧率
-                        fps = int(round(cap.get(cv2.CAP_PROP_FPS)))
-                        # 分辨率-宽度
-                        width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-                        # 分辨率-高度
-                        height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-                        # 总帧数
-                        frame_counter = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-                        cap.release()
-                        cv2.destroyAllWindows()
+                        # cap = cv2.VideoCapture(os.path.join(root, file))
+                        # # 帧率
+                        # fps = int(round(cap.get(cv2.CAP_PROP_FPS)))
+                        # # 分辨率-宽度
+                        # width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+                        # # 分辨率-高度
+                        # height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+                        # cap.release()
+                        # cv2.destroyAllWindows()
+                        width = 3840 #可处理最大为4K的视频
+                        height = 2160
                         if file.find("_0.mp4") >= 0:
                             xmlFile = file.replace("_0.mp4", ".xml")
                             output_file = file.replace(".mp4", ".ass")
