@@ -2,7 +2,7 @@
 
 一个可视化，打开即用的将B站弹幕转换为本地播放器可识别的ASS格式字幕的工具。
 
-如果由于网络问题导致Github中此文档的图片无法正常加载，请移步以下中国境内的仓库来查看和阅读使用说明（不过还是希望大家多多Star此Github仓库）：
+如果由于网络问题导致Github中此文档的图片无法正常加载，请移步以下中国境内的仓库来查看和阅读使用说明（不过还是希望大家多多Star Github仓库）：
 
 <http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/tree/master>
 
@@ -248,6 +248,8 @@ Python运行方式：
 -   选中了“重命名文件夹”，工具会将通过Bilibili客户端下载好的视频文件夹的名字由原来的ID号改成视频的名称。
 
     ![重命名示例](media/6e7f0cb0ceb701a3d9e2e6cef0771582.png)
+
+    ![批量重命名示例](media/ebb09e02c7e1b98c4d16db0baebcd46e_ekg1uewz.jpg)
 
     如果重命名过程中黑色控制台报错Access is
     denied，建议把对应的文件夹剪切到其他位置，并尝试手动重命名看是否有权限，一般不会出问题。
