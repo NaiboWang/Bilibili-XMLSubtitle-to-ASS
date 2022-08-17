@@ -1060,6 +1060,28 @@ def convertDir(input_files,
                         # cv2.destroyAllWindows()
                         width = 3840 #可处理最大为4K的视频
                         height = 2160
+
+                        # 检测视频是否需要转换
+                        tmp_file_name = "tmp_" + file
+                        os.rename(os.path.join(root,file), os.path.join(root, tmp_file_name))
+
+                        tmp_file = open(os.path.join(root, tmp_file_name), 'rb') # 打开二进制文件
+                        
+                        if tmp_file.read(3) == b'\xff\xff\xff':
+                            print("视频需要转换!")
+                            file_new = open(os.path.join(root, file), 'wb') # 一定要是wb，不能是w！
+                            data = tmp_file.read() # 之前if选项中已经read了3个字节，游标前进了3个，因此直接把剩余的读完就OK了
+                            file_new.write(data)
+                            tmp_file.close()
+                            file_new.close()
+                            os.remove(os.path.join(root,tmp_file_name))
+                        else:
+                            print("视频无需转换！") 
+                            tmp_file.close()
+                            os.rename(os.path.join(root,tmp_file_name), os.path.join(root, file))
+                        
+                        
+                        # 检测视频类型
                         if file.find("_0.mp4") >= 0:
                             xmlFile = file.replace("_0.mp4", ".xml")
                             output_file = file.replace(".mp4", ".ass")
