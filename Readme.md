@@ -6,9 +6,9 @@
 
 一个可视化，打开即用的将B站弹幕转换为本地播放器可识别的ASS格式字幕的工具。
 
-如果由于网络问题导致Github中此文档的图片无法正常加载，请移步以下中国境内的仓库来查看和阅读使用说明（不过还是希望大家多多Star Github仓库）：
+<!-- 如果由于网络问题导致Github中此文档的图片无法正常加载，请移步以下中国境内的仓库来查看和阅读使用说明（不过还是希望大家多多Star Github仓库）：
 
-<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/tree/master>
+<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/tree/master> -->
 
 另外这个工具还有一个妙用，如果你想看一部曾经在B站上存在过但现在下架了的电视剧/电影的弹幕，用这个工具也能多多少少帮你做到这一点，具体方式请往下看。
 
@@ -18,9 +18,9 @@
 
 如果你是程序小白，那么请直接点击下方链接下载此程序（12.5MB）。
 
--   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/bilibiliXML2ASS.zip>
+<!-- -   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/bilibiliXML2ASS.zip> -->
 
--   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/bilibiliXML2ASS.zip>
+-   下载地址【Github，可能速度比较慢，请使用科学上网等方式提升下载速度】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/bilibiliXML2ASS.zip>
 
 
 下载完成后解压得到bilibiliXML2ASS.exe，在Win 10/Win 11系统双击打开即可，第一次打开可能需要等待15-20秒。
