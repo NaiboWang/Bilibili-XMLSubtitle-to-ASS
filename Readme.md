@@ -1,3 +1,9 @@
+# 友情提示 Friendly Tip
+
+如果你觉得此工具不错，请轻轻点击此页面右上角**Star**按钮增加项目曝光度，谢谢！
+
+If you think this tool is good, please gently click the **Star** button in the upper right corner at this page to increase the project exposure, thank you!
+
 # 版本更新：新增自动转换Bilibili下载视频功能
 
 由于现在版本的bilibil客户端下载的视频无法直接在本地播放器打开观看，因此程序新增了在转换弹幕的过程中自动将下载的视频转换为本地播放器可以打开播放的视频文件的功能，无需用户手动选择，注意，**转换后视频将无法用Bilibili UWP播放器打开观看!**
