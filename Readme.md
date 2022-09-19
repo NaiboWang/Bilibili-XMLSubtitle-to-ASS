@@ -352,9 +352,9 @@ B站的弹幕对应的视频分为三类：允许下载的视频，只允许在�
 
 如果想要批量根据上面得到的url地址下载弹幕，这里我也开发了个小程序：
 
--   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/Crawler.zip>
+<!-- -   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/Crawler.zip> -->
 
--   下载地址2【Github】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/Crawler.zip>
+-   下载地址：<https://github.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/releases/download/v1.0.0/Crawler.exe>
 
 自然，也可以直接下载此仓库的的Crawler.py通过Python运行，来批量下载弹幕.
 
