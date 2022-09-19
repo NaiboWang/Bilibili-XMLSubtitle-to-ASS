@@ -16,11 +16,11 @@
 
 ### 直接运行
 
-如果你是程序小白，那么请直接点击下方链接下载此程序（12.5MB）。
+如果你是程序小白，那么请直接点击下方链接下载此程序（9.5MB）。
 
 <!-- -   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/bilibiliXML2ASS.zip> -->
 
--   下载地址【Github，可能速度比较慢，请使用科学上网等方式提升下载速度】：<https://raw.githubusercontent.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/master/dist/bilibiliXML2ASS.zip>
+-   下载地址【Github，可能速度比较慢，请使用科学上网等方式提升下载速度】：<https://github.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/releases/download/v1.0.0/bilibiliXML2ASS.exe>
 
 
 下载完成后解压得到bilibiliXML2ASS.exe，在Win 10/Win 11系统双击打开即可，第一次打开可能需要等待15-20秒。
