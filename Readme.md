@@ -18,6 +18,30 @@ If you think this tool is good, please gently click the **Star** button in the u
 
 另外这个工具还有一个妙用，如果你想看一部曾经在B站上存在过但现在下架了的电视剧/电影的弹幕，用这个工具也能多多少少帮你做到这一点，具体方式请往下看。
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+# 目录
+
+- [下载/运行方式](#%E4%B8%8B%E8%BD%BD%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F)
+  - [直接运行](#%E7%9B%B4%E6%8E%A5%E8%BF%90%E8%A1%8C)
+  - [Python运行](#python%E8%BF%90%E8%A1%8C)
+- [实现效果](#%E5%AE%9E%E7%8E%B0%E6%95%88%E6%9E%9C)
+  - [功能介绍](#%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)
+  - [效果图](#%E6%95%88%E6%9E%9C%E5%9B%BE)
+- [开发原因](#%E5%BC%80%E5%8F%91%E5%8E%9F%E5%9B%A0)
+  - [为什么要将B站视频下载下来？](#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%B0%86b%E7%AB%99%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E4%B8%8B%E6%9D%A5)
+  - [为什么不用其他现成的转换工具](#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E7%94%A8%E5%85%B6%E4%BB%96%E7%8E%B0%E6%88%90%E7%9A%84%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7)
+- [使用方式](#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)
+  - [工具使用方式](#%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)
+  - [视频下载方式](#%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%96%B9%E5%BC%8F)
+    - [Bilibili客户端](#bilibili%E5%AE%A2%E6%88%B7%E7%AB%AF)
+    - [其他注意事项](#%E5%85%B6%E4%BB%96%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+  - [第三方渠道视频弹幕下载](#%E7%AC%AC%E4%B8%89%E6%96%B9%E6%B8%A0%E9%81%93%E8%A7%86%E9%A2%91%E5%BC%B9%E5%B9%95%E4%B8%8B%E8%BD%BD)
+- [弹幕批量下载](#%E5%BC%B9%E5%B9%95%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD)
+  - [使用方式](#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F-1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 下载/运行方式
 
 ### 直接运行
