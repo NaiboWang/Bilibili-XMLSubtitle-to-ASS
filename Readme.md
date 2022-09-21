@@ -6,7 +6,7 @@ If you think this tool is good, please gently click the **Star** button in the u
 
 # 版本更新：新增自动转换Bilibili下载视频功能
 
-由于现在版本的bilibil客户端下载的视频无法直接在本地播放器打开观看，因此程序新增了在转换弹幕的过程中自动将下载的视频转换为本地播放器可以打开播放的视频文件的功能，无需用户手动选择，注意，**转换后视频将无法用Bilibili UWP播放器打开观看!**
+由于现在版本的bilibili客户端下载的视频无法直接在本地播放器打开观看，因此程序新增了在转换弹幕的过程中自动将下载的视频转换为本地播放器可以打开播放的视频文件的功能，无需用户手动选择，注意，**转换后视频将无法用Bilibili UWP播放器打开观看!**
 
 # 可视化Bilibili本地视频XML弹幕转换ASS字幕转换器
 
