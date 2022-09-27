@@ -1,6 +1,4 @@
 /__pycache__
 /build
-/dist
 /__pycache__
-*.exe
 *.spec

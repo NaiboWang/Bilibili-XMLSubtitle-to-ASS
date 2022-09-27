@@ -6,7 +6,7 @@ If you think this tool is good, please gently click the **Star** button in the u
 
 # 版本更新：新增自动转换Bilibili下载视频功能
 
-由于现在版本的bilibili客户端下载的视频无法直接在本地播放器打开观看，因此程序新增了在转换弹幕的过程中自动将下载的视频转换为本地播放器可以打开播放的视频文件的功能，无需用户手动选择，注意，**转换后视频将无法用Bilibili UWP播放器打开观看!**
+由于现在版本的bilibil客户端下载的视频无法直接在本地播放器打开观看，因此程序新增了在转换弹幕的过程中自动将下载的视频转换为本地播放器可以打开播放的视频文件的功能，无需用户手动选择，注意，**转换后视频将无法用Bilibili UWP播放器打开观看!**
 
 # 可视化Bilibili本地视频XML弹幕转换ASS字幕转换器
 
@@ -18,8 +18,6 @@ If you think this tool is good, please gently click the **Star** button in the u
 
 另外这个工具还有一个妙用，如果你想看一部曾经在B站上存在过但现在下架了的电视剧/电影的弹幕，用这个工具也能多多少少帮你做到这一点，具体方式请往下看。
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 # 目录
 
 - [下载/运行方式](#%E4%B8%8B%E8%BD%BD%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F)
@@ -46,11 +44,11 @@ If you think this tool is good, please gently click the **Star** button in the u
 
 ### 直接运行
 
-如果你是程序小白，那么请直接点击下方链接下载此程序（9.5MB）。
+如果你是程序小白，那么请直接点击下方链接下载此程序（9.17MB）。
 
-<!-- -   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/bilibiliXML2ASS.zip> -->
+-   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/bilibiliXML2ASS.exe>
 
--   下载地址【Github，可能速度比较慢，请使用科学上网等方式提升下载速度】：<https://github.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/releases/download/v1.0.0/bilibiliXML2ASS.exe>
+-   下载地址2【Github，可能速度比较慢，请使用科学上网等方式提升下载速度】：<https://github.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/releases/download/v1.0.0/bilibiliXML2ASS.exe>
 
 
 下载完成后解压得到bilibiliXML2ASS.exe，在Win 10/Win 11系统双击打开即可，第一次打开可能需要等待15-20秒。
@@ -382,9 +380,9 @@ B站的弹幕对应的视频分为三类：允许下载的视频，只允许在�
 
 如果想要批量根据上面得到的url地址下载弹幕，这里我也开发了个小程序：
 
-<!-- -   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/Crawler.zip> -->
+-   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/Crawler.exe>
 
--   下载地址：<https://github.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/releases/download/v1.0.0/Crawler.exe>
+-   下载地址2：<https://github.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/releases/download/v1.0.0/Crawler.exe>
 
 自然，也可以直接下载此仓库的的Crawler.py通过Python运行，来批量下载弹幕.
 
