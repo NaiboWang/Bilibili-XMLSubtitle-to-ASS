@@ -38,8 +38,6 @@ If you think this tool is good, please gently click the **Star** button in the u
 - [弹幕批量下载](#%E5%BC%B9%E5%B9%95%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD)
   - [使用方式](#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F-1)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## 下载/运行方式
 
 ### 直接运行
