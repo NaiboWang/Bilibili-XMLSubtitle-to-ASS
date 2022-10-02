@@ -44,7 +44,7 @@ If you think this tool is good, please gently click the **Star** button in the u
 
 如果你是程序小白，那么请直接点击下方链接下载此程序（9.17MB）。
 
--   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/bilibiliXML2ASS.exe>
+-   下载地址1【CMSCI（在中国境内下载速度会比较快，但有时会打不开，请点击下面的Github下载地址）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/bilibiliXML2ASS.exe>
 
 -   下载地址2【Github，可能速度比较慢，请使用科学上网等方式提升下载速度】：<https://github.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/releases/download/v1.0.0/bilibiliXML2ASS.exe>
 
@@ -378,7 +378,7 @@ B站的弹幕对应的视频分为三类：允许下载的视频，只允许在�
 
 如果想要批量根据上面得到的url地址下载弹幕，这里我也开发了个小程序：
 
--   下载地址1【CMSCI（在中国境内下载速度会比较快）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/Crawler.exe>
+-   下载地址1【CMSCI（在中国境内下载速度会比较快，但有时会打不开，请点击下面的Github下载地址）】：<http://cmsci.net/wnb/bilibili-xmlsubtitle-to-ass/blob/master/dist/Crawler.exe>
 
 -   下载地址2：<https://github.com/NaiboWang/Bilibili-XMLSubtitle-to-ASS/releases/download/v1.0.0/Crawler.exe>
 
