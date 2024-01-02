@@ -1,8 +1,4 @@
-# 请您Star Please Star
-
-如果你觉得此工具不错，请轻轻点击此页面右上角**Star**按钮增加项目曝光度，谢谢！
-
-If you think this tool is good, please gently click the **Star** button in the upper right corner at this page to increase the project exposure, thank you!
+由于B站桌面应用已改版，因此此工具已失效，不再继续更新，望周知。
 
 # 版本更新：新增自动转换Bilibili下载视频功能
 
